@@ -37,10 +37,10 @@
            </button>
             <address class="contacts">
                 <ul class="contacts-item list">
-                   <li>
+                   <li class="contacts-list">
                     <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a> 
                    </li>
-                   <li>
+                   <li class="contacts-list">
                     <a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a>
                    </li> 
                 </ul>
@@ -48,6 +48,7 @@
       </div>
     </header>
     <main>
+      <!--HERO-->
       <section class="hero">
           <div class="container hero-container">
             <h1 class="hero-lile">Effective Solutions
@@ -229,7 +230,7 @@
                 </div>
                 </li>
                 <li class="taste-item">
-                    <img srcset="./images/retina/img.min4.jpg   1x, ./images/retina/img@2x.min.jpg  2x" src="./images/img.jpg4.jpg" 
+                    <img src="./images/img.jpg4.jpg" 
                     alt="Daniel Wilson" 
                     width="264" 
                     height="260" 
@@ -284,7 +285,7 @@
                     ./images/retina/desc-img.min5.jpg 360w, 
                     ./images/retina/img@2x.min5.img 576w, 
                     ./images/retina/tab-img@2x.min5.img 712w, 
-                    ./images/retina/desc-img@2x.min5.img 720w" 
+                    ./images/retina/desc-img@2x.min5.img 720w"
                     sizes="(min-widht: 1158px) 360px, (min-widht: 768px) 356px, (max-width: 767px) 288px" src="./images/img5.jpg" 
                     alt="Banking App" 
                     
@@ -300,8 +301,8 @@
                 <li class="portfolio-item">
                    <div class="portfolio-img-items">
                     <img srcset="./images/retina/img.min6.jpg 288w,  
-                    ./images/retina/tab-img-min6.jpg 356w, 
-                    ./images/retina/desc-img-min6.jpg 360w, 
+                    ./images/retina/tab-img.min6.jpg 356w, 
+                    ./images/retina/desc-img.min6.jpg 360w, 
                     ./images/retina/img@2x.min6.img 576w, 
                     ./images/retina/tab-img@2x.min6.img 712w, 
                     ./images/retina/desc-img@2x.min6.img 720w" 
@@ -320,8 +321,8 @@
                 <li class="portfolio-item">
                   <div class="portfolio-img-items">
                     <img srcset="./images/retina/img.min7.jpg 288w,  
-                    ./images/retina/tab-img-min7.jpg 356w, 
-                    ./images/retina/desc-img-min7.jpg 360w, 
+                    ./images/retina/tab-img.min7.jpg 356w, 
+                    ./images/retina/desc-img.min7.jpg 360w, 
                     ./images/retina/img@2x.min7.img 576w, 
                     ./images/retina/tab-img@2x.min7.img 712w, 
                     ./images/retina/desc-img@2x.min7.img 720w" 
@@ -340,8 +341,8 @@
                 <li class="portfolio-item">
                   <div class="portfolio-img-items">
                     <img srcset="./images/retina/img.min8.jpg 288w,  
-                    ./images/retina/tab-img-min8.jpg 356w, 
-                    ./images/retina/desc-img-min8.jpg 360w, 
+                    ./images/retina/tab-img.min8.jpg 356w, 
+                    ./images/retina/desc-img.min8.jpg 360w, 
                     ./images/retina/img@2x.min8.img 576w, 
                     ./images/retina/tab-img@2x.min8.img 712w, 
                     ./images/retina/desc-img@2x.min8.img 720w" 
@@ -360,8 +361,8 @@
                 <li class="portfolio-item">
                   <div class="portfolio-img-items">
                     <img srcset="./images/retina/img.min9.jpg 288w,  
-                    ./images/retina/tab-img-min9.jpg 356w, 
-                    ./images/retina/desc-img-min9.jpg 360w, 
+                    ./images/retina/tab-img.min9.jpg 356w, 
+                    ./images/retina/desc-img.min9.jpg 360w, 
                     ./images/retina/img@2x.min9.img 576w, 
                     ./images/retina/tab-img@2x.min9.img 712w, 
                     ./images/retina/desc-img@2x.min9.img 720w" 
@@ -380,8 +381,8 @@
                 <li class="portfolio-item">
                   <div class="portfolio-img-items">
                     <img srcset="./images/retina/img.min10.jpg 288w,  
-                    ./images/retina/tab-img-min10.jpg 356w, 
-                    ./images/retina/desc-img-min10.jpg 360w, 
+                    ./images/retina/tab-img.min10.jpg 356w, 
+                    ./images/retina/desc-img.min10.jpg 360w, 
                     ./images/retina/img@2x.min10.img 576w, 
                     ./images/retina/tab-img@2x.min10.img 712w, 
                     ./images/retina/desc-img@2x.min10.img 720w" 
@@ -400,10 +401,11 @@
           </div>
         </section>
     </main>
-    <!--<footer class="footer">
+    <!--FOOTER-->
+    <footer class="footer">
         <div class="container footer-container">
           <div class="left-footer">
-           <a href="./index.html" class="footer-logo link">Web<span class="first-logo_">Studio</span></a>
+           <a href="./index.html" class="footer-logo link">Web<span class="first-logo">Studio</span></a>
            <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
           </div>
           <div class="footer-address">
@@ -458,9 +460,10 @@
             </form>
           </div>
         </div>
-    </footer>-->
-      <!--<div class="bacdrop">
-        <div class="modal">
+    </footer>
+    <!--BACDROP-->
+      <!-- <div class="bacdrop is-hidden">
+       <div class="modal">
          
           <button class="modal-close-btn" type="button">
             <svg class="modal-close-btn-icon" 
@@ -547,9 +550,9 @@
              <button class="review-form-btn" type="submit">Send</button>
           </form>
         </div>
-      </div> -->
+      </div>-->
       <!-- MOBILE MENU-->
-      <div class="mobile-menu 45678">
+      <div class="mobile-menu">
       <div class="container mobile-menu-container">
         <button class="mobile-menu-close-btn" type="button">
           <svg class="mobile-menu-close-icon" width="24" height="24" >
