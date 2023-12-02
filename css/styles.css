@@ -622,12 +622,14 @@ display: block;
 
 .footer-form {
     display: flex;
-        flex-direction: column;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin: 0 auto;
        
 }
 
 .footer-input {
-    width: 264px;
+    width: 288px;
         height: 40px;
         font-size: 12px;
         font-weight: 400;
@@ -1132,7 +1134,7 @@ display: block;
  }
 
  .footer-form {
-    flex-direction: row;
+        gap: 24px;
  }
  
  .modal {
@@ -1141,7 +1143,7 @@ display: block;
  } 
 
  .footer-input {
-     margin-right: 24px;
+     margin-bottom: 0;
  }
 
 }
@@ -1277,12 +1279,14 @@ display: block;
             margin-right: 120px;
         }
 
-        .ooter-address {
-            margin-left: auto;
-        }
-
+           .footer-address {
+               margin-right: 80px;
+           }
+    
         .footer-input {
-            margin-right: 24px;
+           
+                width: 264px;
+               
         }
 
 }
